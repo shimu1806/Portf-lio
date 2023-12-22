@@ -15,21 +15,25 @@
     margin: 1rem 0 2rem;
 }
 
-/* .about .about_left ul{
-    margin-left: -1.2rem;    
-}*/
+.about .about_left ul{
+    gap: 4rem;   
+}
 
 .about .about_left ul li{
-    display: inline-block;   
+    display: column; 
+    padding: 0.2rem;
+    
 }
 
-.about .about_left ul li a{
-    display: inline-block;  
-    padding: 1rem; 
-}
 
 .about .about_right {
     flex: 1;
     max-width: 66rem;
 }
 
+.about .about_right h3{
+    color: lightgreen;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10vh;
+}
