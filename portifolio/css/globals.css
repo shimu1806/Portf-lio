@@ -43,8 +43,8 @@
     color: var(--secondary-color);
   }
   
-  p,
-  .p {
+  p {
+    text-transform: none;
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 3.5rem;
